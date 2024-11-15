@@ -1,0 +1,15 @@
+program ProgrammeSimple;
+var
+  x, y: entier;
+
+debut
+  x := 5;
+  y := 10;
+
+  ecrire('La somme de x et y est : ', x + y);
+
+  si x > y alors
+    ecrire('x est plus grand que y')
+  sinon
+    ecrire('y est plus grand que x');
+fin.

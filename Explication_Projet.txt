@@ -1,0 +1,39 @@
+# Projet de compilation ii2
+
+## Introduction
+
+Ce projet met en œuvre les concepts théoriques abordés en classe et applique les notions apprises à travers la création d'un analyseur pour un sous-ensemble de la langue Pascal.
+
+## Contenu du Dossier
+
+1. **Analyseur Lexical (`AnalyseurLexical.h`):**
+    - Contient les déclarations et les fonctions pour l'analyse lexicale du langage Pascal simplifié.
+
+2. **Analyseur Syntaxique et Sémantique (`AnalyseurSemantique.h`):**
+    - Contient les règles de la grammaire G pour l'analyse syntaxique et sémantique du langage.
+
+3. **Fichier de la Grammaire G (`grammaire.txt`):**
+    - Présente la grammaire G utilisée pour définir la syntaxe du langage Pascal simplifié.
+
+4. **Programme Principal (`main.c`):**
+    - Fichier principal qui effectue l'analyse lexicale et démarre l'analyse syntaxique et sémantique.
+
+
+5. **Fichier Source Pascal Simplifié (`program.txt`):**
+    - Exemple de fichier source Pascal simplifié utilisé pour tester l'analyseur.
+
+## Procédure d'Exécution
+
+1. Compiler le programme principal (`main.c`) avec un compilateur C 
+2. Assurer la présence du fichier source Pascal simplifié (`program.txt`) dans le répertoire.
+3. Exécuter le programme généré pour effectuer l'analyse lexicale, syntaxique, et sémantique.
+
+## Remarques
+
+- Assurez-vous que tous les fichiers nécessaires sont présents dans le même répertoire.
+
+
+- En cas d'erreurs, les messages d'erreur seront affichés à la console pour faciliter le débogage.
+
+
+Merci!
